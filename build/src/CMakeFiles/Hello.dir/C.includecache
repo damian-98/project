@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/hello.h
+
+../include/util.h
+
+/Users/DAM1998/ab/CS3335/src/hello.c
+hello.h
+/Users/DAM1998/ab/CS3335/src/hello.h
+
+/Users/DAM1998/ab/CS3335/src/main.c
+stdio.h
+-
+hello.h
+/Users/DAM1998/ab/CS3335/src/hello.h
+util.h
+/Users/DAM1998/ab/CS3335/src/util.h
+
+/Users/DAM1998/ab/CS3335/src/util.c
+util.h
+/Users/DAM1998/ab/CS3335/src/util.h
+
