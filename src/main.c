@@ -5,6 +5,7 @@
  
 int main()
 {
+	printf("Hello, World");
 	printf("%s\n", hello());
 	printf("%d\n", doubleNum(10));
  
